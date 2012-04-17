@@ -1,0 +1,45 @@
+Purpose
+========================================
+  A system able to generate a skeleton for program/script files.  Works off of a templated system of some type (XML or some other format).
+
+
+Requirements
+========================================
+Needs to be very portable.  Perl is probably the most widely available scripting language.
+
+Supported types:
+	windows batch
+	unix shell
+	perl
+
+Enhancements
+========================================
+Optionally supported types?
+	powershell
+	python
+	html
+	css
+	php
+
+Thoughts on template system?
+
+
+
+
+General Format
+(modeled with the number sign (#) as the comment marker)
+         1         2         3         4         5         6         7         8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+############################################################
+#
+#  Program Name     :
+#  Purpose          :
+#  Version          :
+#  Associated Files :
+#
+############################################################
+#  History
+#  yyyymmdd   username   version   comment   (example line)
+#  20120416   03208200   1.00.00   Created.
+#
+############################################################
